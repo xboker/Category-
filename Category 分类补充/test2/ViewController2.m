@@ -19,11 +19,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     [Man alloc];
     [Man alloc];
     [Man alloc];
     [Man alloc];
-
     [Man description];
     ///class_getClassMethod(<#Class  _Nullable __unsafe_unretained cls#>, <#SEL  _Nonnull name#>)
     ///class_getInstanceMethod(<#Class  _Nullable __unsafe_unretained cls#>, <#SEL  _Nonnull name#>)
